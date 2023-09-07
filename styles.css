@@ -1,0 +1,72 @@
+/* Notas importantes:
+
+    Parallax
+    Diseño responsive
+    Revisar sistemas de medida para: 'rem', 'em', 'px', 'vh', 'vw' y '%'.
+
+*/
+
+/* Configuraciones Generales */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/* Sección principal */
+body section.main-section {
+    display: flex;
+    position: sticky;
+    top: 0;
+
+    height: 91%;
+    width: 100%;
+}
+
+section.main-section div.side-menu {
+    background-color: #000000;
+    font-size: 40px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+    min-width: 287px;
+}
+
+section.main-section div.main-content {
+    background-color: #00916d;
+    font-size: 40px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 85vw;   
+}
+
+
+/* Footer */
+body footer.footer {
+    background-color: green;    
+    font-size: 40px;
+    color: white;
+
+    position: sticky;
+    bottom: 0;
+
+    min-height: 9%;
+    width: 100%;    
+}
